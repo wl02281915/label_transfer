@@ -1,8 +1,0 @@
-#only work on png file
-txt2json.py : convert yolo txt to labelme json format(x1y1x2y2...xnyn)
-
-  1.create img_save folder
-
-  2.put images and labels into img_save
-
-  3.execute python3 txt2json.py

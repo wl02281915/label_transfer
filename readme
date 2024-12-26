@@ -1,0 +1,28 @@
+# only work on png file
+
+I.labelme_json2yolo_txt.py : convert labelme json to yolo txt format(x1y1x2y2...xnyn)
+
+  1.create img_save folder
+
+  2.put images and labels into img_save
+
+  3.execute python3 labelme_json2yolo_txt.py
+
+-------------------------------------------
+II.yolo_txt2labelme_json.py : convert yolo txt to labelme json format(x1y1x2y2...xnyn)
+
+  1.create img_save folder
+
+  2.put images and labels into img_save
+
+  3.execute python3 yolo_txt2labelme_json.py
+
+--------------------------------------------
+III.labelimgII_xml2yolo_txt.py.py : convert labelimg2 xml to yolo obb txt format(x1y1x2y2x3y3x4y4)
+
+  1.create img_save folder
+
+  2.put images and labels into img_save
+
+  3.execute python3 labelimgII_xml2yolo_txt.py
+

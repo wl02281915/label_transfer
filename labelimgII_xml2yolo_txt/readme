@@ -1,9 +1,0 @@
-#only work on png file
-
-obb_xml2txt.py : convert labelimg2 xml to yolo obb txt format(x1y1x2y2x3y3x4y4)
-
-  1.create img_save folder
-
-  2.put images and labels into img_save
-
-  3.execute python3 obb_xml2txt.py
